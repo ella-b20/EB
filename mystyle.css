@@ -1,0 +1,27 @@
+  
+
+body {
+	background-color: white;
+	}
+h1	{
+	color: #4e90a8;
+	font-size: 600%;
+	text-align: center; 
+	}
+p	{
+	color: #4e90a8;
+	font-family: serif;
+	font-size: 160%;
+	text-align: center;
+
+	}
+
+	a:link, a:visited {
+		background-color: #4e90a8;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
