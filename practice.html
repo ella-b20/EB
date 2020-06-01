@@ -1,35 +1,13 @@
-  
-
-body {
-	background-color: white;
-	}
-h1	{
-	color: #4e90a8;
-	font-size: 600%;
-	text-align: center; 
-
-	}
-p	{
-	color: #4e90a8;
-	font-family: serif;
-	font-size: 160%;
-	text-align: center;
-
-	}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #4e90a8;
+  background-color: #333;
 }
 
 li {
@@ -45,7 +23,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #30707E;
+  background-color: red;
 }
 
 li.dropdown {
@@ -74,8 +52,25 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+</style>
+</head>
+<body>
 
-.floated_img
-{
-    float: left;
-}
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
